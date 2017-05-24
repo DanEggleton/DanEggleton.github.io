@@ -1,7 +1,82 @@
-h1 {
-	color: blue;
+html, body {
+	text-align: center;
+	color: white;
+	margin: 0px;
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	height: 100%;
+	width: 100%;
+	background-image: url("Helvellyn.jpg");
+	background-size: cover;
+	display: flex;
 }
 
-h4 {
-	color: red;
+.outercontainer {
+	display: flex;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.leftpane {	
+	width: 30%;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.rightpane {
+	margin-right: 15px;
+}
+
+#page-title a {
+	color: #262626;
+	text-decoration: none;
+}
+
+#page-title a:hover {
+	color: white;
+}
+
+#page-title a:active {
+	font-weight: bold;
+}
+
+.intro {
+	color: #6d00ab;
+	background: white;
+	border: 2px solid black;
+	padding: 10px;
+}
+
+ul {
+	list-style-type: none;
+	padding: 10px;
+	margin-top: -25px;
+}
+
+li {
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px:
+}
+
+.nav-item a {
+	color: white;
+	text-decoration: none;
+}
+
+.nav-item a:hover {
+	color: #6d00ab;
+}
+
+.nav-item a:active {
+	font-weight: bold;
+}
+
+.footer {
+	position: fixed;
+	right: 15px;
+	bottom: 10px;
+	font-size: 14px;
+	color: white;
+	text-align: right;
+	padding-bottom: 5px;
 }
